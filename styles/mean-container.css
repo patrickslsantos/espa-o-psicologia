@@ -1,0 +1,125 @@
+.apresentação {
+    padding: 2em;
+    text-align: center;
+}
+
+.apresentação__título {
+    padding: 1em;
+    color: var(--cor-do-titulo);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    border: 4px solid var(--cor-de-fundo-alternativo);
+    border-radius: 10px;
+}
+
+.mean__imagem {
+    width: 50%;
+}
+
+.apresentação__lista-item {
+    align-items: center;
+}
+
+.apresentação__lista {
+    padding: 1em;
+}
+
+.apresentação__subtítulo {
+    font-family: var(--fonte-principal);
+    color: var(--cor-do-subtítulo);
+    font-weight: 500;
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.apresentação__texto {
+    padding: 1em;
+    font-family: var(--fonte-principal);
+    color: var(--cor-do-titulo);
+    font-weight: 400;
+}
+
+.container__tablet-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container__mobile {
+        display: none;
+    }
+
+    .container__tablet-desktop {
+        display: block;
+    }
+
+    .apresentação {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentação__título {
+        margin-top: 2em;
+        width: 40%;
+        padding: 2em;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .apresentação__lista-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .mean__imagem {
+        width: auto;
+    }
+
+    .apresentação__subtítulo {
+        font-size: 24px;
+    }
+
+    .apresentação__texto {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .apresentação {
+        padding: 3em;
+    }
+
+    .apresentação__título {
+        font-size: 40px;
+        border: 8px solid var(--cor-de-fundo-alternativo);
+        border-radius: 10px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .mean__imagem {
+        margin: auto;
+    }
+
+    .apresentação__subtítulo {
+        font-size: 32px;
+    }
+
+    .apresentação__texto {
+        font-size: 32px;
+    }
+
+    .rodapé {
+        padding: 3em 3em;
+    }
+
+    .rodapé__título {
+        font-size: 32px;
+        font-weight: 800;
+    }
+}

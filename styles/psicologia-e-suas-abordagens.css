@@ -1,0 +1,69 @@
+.apresentação__imagem-psicologia {
+    margin: 1em 0 2em 0;
+    width: 50%;
+    border: 4px solid var(--cor-de-fundo-alternativo);
+    border-radius: 50%;
+}
+
+.apresentação__tablet-desktop {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+
+    .apresentação__mobile {
+        display: none;
+    }
+
+    .apresentação__tablet-desktop {
+        display: block;
+    }
+
+    .apresentação__imagem-psicologia {
+        width: 50%;
+        margin: auto;
+    }
+
+    .apresentação__lista-item {
+        margin-top: 3em;
+    }
+
+    .apresentação__título {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .apresentação {
+        padding: 3em;
+    }
+
+    .apresentação__título {
+        font-size: 40px;
+        border: 8px solid var(--cor-de-fundo-alternativo);
+        border-radius: 10px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .mean__imagem {
+        margin: auto;
+    }
+
+    .apresentação__subtítulo {
+        font-size: 32px;
+    }
+
+    .apresentação__texto {
+        font-size: 32px;
+    }
+
+    .rodapé {
+        padding: 3em 3em;
+    }
+
+    .rodapé__título {
+        font-size: 32px;
+        font-weight: 800;
+    }
+}

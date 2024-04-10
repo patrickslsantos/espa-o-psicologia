@@ -1,0 +1,17 @@
+@import url("./styles/header.css");
+@import url("./styles/mean-container.css");
+@import url("./styles/footer.css");
+@import url("./styles/mean-container-autor.css");
+@import url("./styles/psicologia-e-suas-abordagens.css");
+
+:root {
+    --cor-de-fundo:#164863;
+    --cor-de-fundo-alternativo:#427D9D;
+    --cor-do-titulo:#9BBEC8;
+    --cor-do-subtítulo:#DDF2FD;
+    --fonte-principal: 'Roboto';
+}
+
+body {
+    background-color: var(--cor-de-fundo);   
+}

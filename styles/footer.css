@@ -1,0 +1,23 @@
+.rodapé {
+    padding: 1em 0 1em 0;
+    background-color: var(--cor-de-fundo-alternativo);
+}
+
+.rodapé__título {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-do-titulo);
+}
+
+@media screen and (min-width: 1024px) {
+    .rodapé {
+        padding: 2em 2em;
+    }
+
+    .rodapé__título {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
